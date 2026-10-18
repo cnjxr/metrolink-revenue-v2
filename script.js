@@ -278,7 +278,7 @@
     const counter = document.getElementById("processing-counter");
 
     // Deliberately kept under five seconds.
-    const duration = 4400;
+    const duration = 4000;
     const start = performance.now();
 
     beep(audio, 920, 0.06, 0.025);
